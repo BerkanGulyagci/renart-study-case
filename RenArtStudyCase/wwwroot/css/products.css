@@ -1,0 +1,143 @@
+/* Avenir Book */
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('/fonts/avenir/Avenir-Book.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/* Montserrat Regular */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/* Montserrat Medium */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+/* Swiper container */
+.swiper-container {
+    width: 100%;
+    padding: 40px 0;
+}
+
+/* Swiper slide */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+/* Ürün kartı */
+.product-card {
+    width: 220px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s;
+    font-family: 'Avenir Book', sans-serif;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Ürün görseli */
+.product-img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+/* Color picker */
+.color-picker button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+     outline: none;
+}
+
+
+.color-picker .yellow { background-color: #E6CA97; }
+.color-picker .white  { background-color: #D9D9D9; }
+.color-picker .rose   { background-color: #E1A4A9; }
+
+/* Popülerlik */
+.stars {
+    color: #E6CA97;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* Ürün adı */
+.product-card h4 {
+    font-family: 'Avenir Book', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+/* Fiyat */
+.price {
+    font-family: 'Avenir Book', sans-serif;
+    font-size: 12px;
+      margin-bottom: 8px;
+}
+
+/* USD metni */
+.price .currency {
+    margin-left: 2px;
+    font-family: 'Avenir Book', sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+
+/* Renk adı */
+.color-name {
+    font-family: 'Avenir Book', sans-serif;
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+/* Sayfa başlığı */
+h2 {
+    font-family: 'Avenir Book', sans-serif;
+    font-size: 45px;
+}
+/* Yıldız kapsayıcı */
+.star-rating {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    color: #E6CA97;
+     margin-top: 8px;
+}
+
+/* Dolu kısım */
+.star-rating__fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #E6CA97;
+}
+
+/* Boş kısım */
+.star-rating__base {
+    color: #ccc;
+}

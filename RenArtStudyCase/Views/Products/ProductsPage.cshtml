@@ -2,45 +2,25 @@
     ViewData["Title"] = "Product List";
 }
 
-<h2>Product List</h2>
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/css/products.css">
 
-<div id="productContainer" style="display: flex; flex-wrap: wrap; gap: 20px;">
-    <!-- Ürün kartları buraya JS ile gelecek -->
+<h2 style="margin: 30px;">Product List</h2>
+
+<!-- Swiper Carousel -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!-- Product cards will be dynamically added here by JS -->
+    </div>
+
+    <!-- Carousel arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
 </div>
 
-<script>
-    fetch('/api/products')
-        .then(response => response.json())
-        .then(products => {
-            const container = document.getElementById('productContainer');
-            products.forEach(product => {
-                container.innerHTML += `
-                    <div style="border:1px solid #ccc; padding: 10px; width: 200px;">
-                        <img id="product-img-${product.name}" src="${product.images.yellow}" alt="${product.name}" style="width:100%;">
-
-                        <h4>${product.name}</h4>
-                        <p>Price: $${product.price.toFixed(2)}</p>
-                        <p>Popularity: ${(product.popularityScore * 5).toFixed(1)}/5</p>
-
-                        <!-- Color Picker -->
-                        <div style="margin-top: 8px;">
-                            <button onclick="changeColor('${product.name}', '${product.images.yellow}')" 
-                                style="background-color:#E6CA97; width:20px; height:20px; border-radius:50%; border:none;" title="Yellow Gold"></button>
-
-                            <button onclick="changeColor('${product.name}', '${product.images.white}')" 
-                                style="background-color:#D9D9D9; width:20px; height:20px; border-radius:50%; border:none;" title="White Gold"></button>
-
-                            <button onclick="changeColor('${product.name}', '${product.images.rose}')" 
-                                style="background-color:#E1A4A9; width:20px; height:20px; border-radius:50%; border:none;" title="Rose Gold"></button>
-                        </div>
-                    </div>
-                `;
-            });
-        })
-        .catch(error => console.error('Error:', error));
-
-    // Renk değiştir
-    function changeColor(productName, imageUrl) {
-        document.getElementById(`product-img-${productName}`).src = imageUrl;
-    }
-</script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="/js/products.js"></script>
