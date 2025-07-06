@@ -16,13 +16,9 @@ namespace RenArtStudyCase.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetProducts()
+        public async Task<IActionResult> GetProducts()
         {
-            // Şimdilik sabit altın fiyatı: 70 USD/gr
-            double goldPrice = 70.0;
-
-            var products = _productService.GetProducts(goldPrice);
-
+            var products = await _productService.GetProductsAsync();
             return Ok(products);
         }
 
@@ -31,19 +27,5 @@ namespace RenArtStudyCase.Controllers
         {
             return View();
         }
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

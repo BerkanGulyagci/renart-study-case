@@ -7,6 +7,7 @@ builder.Services.AddControllersWithViews();
 
 // ProductService servisini ekledik
 builder.Services.AddScoped<ProductService>();
+builder.Services.AddHttpClient<GoldService>();
 
 var app = builder.Build();
 
