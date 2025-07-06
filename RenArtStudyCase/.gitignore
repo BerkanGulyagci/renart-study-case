@@ -1,0 +1,31 @@
+# Build Results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# ASP.NET Core secrets
+**/secrets.json
+
+# Publish directory
+publish/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Other
+node_modules/
