@@ -96,8 +96,6 @@ C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\RenArtStudyCa
 C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\ref\RenArtStudyCase.dll
 C:\Users\BERKAN\renart study case\RenArtStudyCase\bin\Debug\net9.0\Data\products.json
 C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\RenArtStudyCase.sourcelink.json
-C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\compressed\brhczgvbr6-tnii5myu3n.gz
-C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\compressed\tpjs7k0lhi-2n1ory997s.gz
 C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\compressed\4jayww58wi-ase4cl8oft.gz
 C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\compressed\hix6ygrj9j-ne3qrkoeal.gz
 C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\compressed\yv77esesh8-unn2uoxgbr.gz
@@ -113,3 +111,5 @@ C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\compressed\yk
 C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\compressed\llljxny5ye-auhqdd9lkm.gz
 C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\compressed\kpkzcf3fwb-jfyh1yv0rj.gz
 C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\compressed\1ahxz4vjey-2hrq5yegfn.gz
+C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\compressed\tpjs7k0lhi-dvwjz8lej1.gz
+C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\compressed\brhczgvbr6-eyfm3yz0so.gz
