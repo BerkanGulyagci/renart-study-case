@@ -94,3 +94,5 @@ C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\refint\RenArt
 C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\RenArtStudyCase.pdb
 C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\RenArtStudyCase.genruntimeconfig.cache
 C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\ref\RenArtStudyCase.dll
+C:\Users\BERKAN\renart study case\RenArtStudyCase\bin\Debug\net9.0\Data\products.json
+C:\Users\BERKAN\renart study case\RenArtStudyCase\obj\Debug\net9.0\RenArtStudyCase.sourcelink.json

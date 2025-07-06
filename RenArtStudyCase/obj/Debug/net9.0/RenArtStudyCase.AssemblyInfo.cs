@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RenArtStudyCase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2abda5930978837d0d8f5548c0d92ee9abf54264")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6909e46b8007f9d2d3a4c3a604b9c72df7ef7aee")]
 [assembly: System.Reflection.AssemblyProductAttribute("RenArtStudyCase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RenArtStudyCase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
