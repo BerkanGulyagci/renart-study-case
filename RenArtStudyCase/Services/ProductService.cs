@@ -16,7 +16,7 @@
 
         public async Task<List<Product>> GetProductsAsync(string? sortBy = null)
         {
-            double goldPrice = await _goldService.GetGoldPricePerGramAsync() ?? 70.0;
+            double goldPrice = await _goldService.GetGoldPricePerGramAsync() ?? 106.0;
             Console.WriteLine($"Gold price from API: {goldPrice}");
 
 

@@ -7,18 +7,19 @@ public class GoldService
     public GoldService(HttpClient client)
     {
         _client = client;
-        _client.DefaultRequestHeaders.Add("x-access-token", "goldapi-fmousmcs7p4z4-io");
     }
 
     public async Task<double?> GetGoldPricePerGramAsync()
     {
         try
         {
-            var response = await _client.GetFromJsonAsync<GoldApiResponse>("https://www.goldapi.io/api/XAU/USD");
-            if (response == null || response.price_gram_24k == 0)
+            var response = await _client.GetFromJsonAsync<GoldApiResponse>("https://api.gold-api.com/price/XAU");
+            if (response == null || response.price == 0)
                 return null;
 
-            return Math.Round(response.price_gram_24k, 2);
+            // Ons → Gram çevirimi
+            double pricePerGram = response.price / 31.1035;
+            return Math.Round(pricePerGram, 2);
         }
         catch
         {
@@ -28,6 +29,8 @@ public class GoldService
 
     private class GoldApiResponse
     {
-        public double price_gram_24k { get; set; }
+        public string name { get; set; }
+        public double price { get; set; }
+        public string symbol { get; set; }
     }
 }
