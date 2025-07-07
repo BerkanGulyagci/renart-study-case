@@ -3,6 +3,7 @@ RenArtStudyCase
 It reads product data from a JSON file, calculates prices dynamically using the real-time gold price, and displays products in a responsive UI with color selection and carousel.
 
 Tech Stack
+
  ASP.NET Core MVC & Web API
 
  C#, Razor Pages
