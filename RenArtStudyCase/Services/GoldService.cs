@@ -29,8 +29,8 @@ public class GoldService
 
     private class GoldApiResponse
     {
-        public string name { get; set; }
+        public string? name { get; set; }
         public double price { get; set; }
-        public string symbol { get; set; }
+        public string? symbol { get; set; }
     }
 }
