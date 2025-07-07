@@ -138,8 +138,6 @@ C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\ob
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\scopedcss\bundle\RenArtStudyCase.styles.css
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\scopedcss\projectbundle\RenArtStudyCase.bundle.scp.css
-C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\tpjs7k0lhi-1w3a9qc1bb.gz
-C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\ngh3gex3kt-b9sayid5wm.gz
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\m0yyaaoz04-61n19gt1b8.gz
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\4jayww58wi-ase4cl8oft.gz
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\hix6ygrj9j-ne3qrkoeal.gz
@@ -156,7 +154,6 @@ C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\ob
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\llljxny5ye-auhqdd9lkm.gz
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\kpkzcf3fwb-jfyh1yv0rj.gz
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\1ahxz4vjey-2hrq5yegfn.gz
-C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\brhczgvbr6-o20ggn7rbu.gz
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\pss39g2y9e-xtxxf3hu2r.gz
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\l6qgm70uq4-t1cqhe9u97.gz
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\bp8euzrcm3-c2jlpeoesf.gz
@@ -228,3 +225,6 @@ C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\ob
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\RenArtStudyCase.pdb
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\RenArtStudyCase.genruntimeconfig.cache
 C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\ref\RenArtStudyCase.dll
+C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\ngh3gex3kt-ktkj6bz9j4.gz
+C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\tpjs7k0lhi-7wxfn5xkhb.gz
+C:\Users\BERKAN\Desktop\renart-study-case\renart-study-case-1\RenArtStudyCase\obj\Debug\net9.0\compressed\brhczgvbr6-cqa5hq4exe.gz
