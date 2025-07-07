@@ -34,7 +34,7 @@ app.MapControllers();
 // MVC route'ları
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Products}/{action=ProductsPage}/{id?}")
     .WithStaticAssets();
 
 app.Run();

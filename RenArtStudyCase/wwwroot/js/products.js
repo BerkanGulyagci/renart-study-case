@@ -56,11 +56,18 @@ function fetchProducts(sortBy = '') {
 
            new Swiper('.swiper-container', {
     slidesPerView: 4,
-    spaceBetween: 24,
+    spaceBetween: 32,
     loop: false,
+    
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
+    },
+     scrollbar: {
+        el: '.swiper-scrollbar',
+        draggable: true,
+         dragSize: 300,
+    
     },
     breakpoints: {
         1200: { slidesPerView: 4, spaceBetween: 24 },
