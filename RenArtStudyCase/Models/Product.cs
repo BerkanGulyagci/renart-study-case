@@ -14,7 +14,7 @@ public class Product
     [JsonPropertyName("images")]
     public ProductImages? Images { get; set; }
 
-    public double Price { get; set; }  // API'de hesaplanan alan, JSON'dan gelmiyor
+    public double Price { get; set; } 
 }
 
 public class ProductImages

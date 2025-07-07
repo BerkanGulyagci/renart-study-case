@@ -27,13 +27,13 @@
             {
                 product.Price = (product.PopularityScore + 1) * product.Weight * goldPrice;
             }
-             // Sıralama
+             
     products = sortBy switch
     {
         "popularityDesc" => products.OrderByDescending(p => p.PopularityScore).ToList(),
         "priceAsc"       => products.OrderBy(p => p.Price).ToList(),
         "priceDesc"      => products.OrderByDescending(p => p.Price).ToList(),
-        _                => products // default: sıralama yok
+        _                => products 
     };
 
 

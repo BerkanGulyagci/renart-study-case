@@ -164,7 +164,7 @@ h2 {
 
 .filter-container {
     display: flex;
-    justify-content: center; /* yatayda ortala */
+    justify-content: center; 
     margin-bottom: 30px;
 }
 .filters-wrapper {
@@ -175,9 +175,9 @@ h2 {
 }
 .filter-dropdown {
     position: absolute;
-    top: 45px; /* butonun altına gelsin */
-    left: 50%; /* sol kenarı %50'ye */
-    transform: translateX(-50%); /* tam ortala */
+    top: 45px; 
+    left: 50%; 
+    transform: translateX(-50%); 
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -248,56 +248,56 @@ h2 {
 }
 
 .swiper-container {
-    overflow: hidden;  /* Sayfa taşmasını engeller */
+    overflow: hidden;  
     width: 90%;
     margin: 0 auto;
     padding: 40px 0;
 }
 
 .swiper-wrapper {
-    overflow: visible; /* Slide'lar taşabilir ama Swiper yönetecek */
+    overflow: visible; 
 }
 
-/* Swiper scrollbar kapsayıcı */
+
 .swiper-scrollbar {
-    position: relative; /* mevcut */
-    top: -10px;         /* yukarı taşı */
+    position: relative; 
+    top: -10px;         
     height: 16px;
     border-radius: 8px;
-    margin-top: 0;      /* artık margin gerek yok */
+    margin-top: 0;     
       background: linear-gradient(90deg, #f5f5f5, #e0e0e0);
     box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
 }
 .swiper-scrollbar-drag {
-    height: 100%;        /* Tam doldur */
+    height: 100%;        
      background: #b0b0b0;
     box-shadow: 0 1px 3px rgba(0,0,0,0.15);
     transition: all 0.3s ease;
     border-radius: 8px;
-    min-height: 16px;    /* Bazen override olması için */
+    min-height: 16px;    
 }
 
 
 .swiper-scrollbar-drag:hover {
     background: #999;
 }
-/* Swiper scroll bar'ın konteynerde doğru yerde kalması için */
+
 .swiper-container {
     overflow: hidden;
 }
 
-/* Hover'da renk değişir */
+
 .swiper-scrollbar-drag:hover {
     background: #666;
 }
 
-/* Sayfa scroll'u kapatalım */
+
 body {
     overflow-x: hidden;
 }
 
 .swiper-scrollbar {
-    margin-top: 30px; /* Ürünlerin altına taşı */
+    margin-top: 30px; 
     height: 16px;
     background: #e0e0e0;
     border-radius: 8px;

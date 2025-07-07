@@ -1,19 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetchProducts(); // Sayfa ilk açıldığında çağır
+    fetchProducts(); 
 
     const filterBtn = document.getElementById("filterBtn");
     const filterDropdown = document.getElementById("filterDropdown");
 
-    // Dropdown toggle
+   
     filterBtn.addEventListener("click", () => {
  filterDropdown.classList.toggle("show");    });
 
-    // Sıralama seçimi
     document.querySelectorAll(".filter-option").forEach(option => {
         option.addEventListener("click", () => {
             const sortBy = option.getAttribute("data-sort");
             filterDropdown.style.display = "none";
-            fetchProducts(sortBy); // Tıklayınca filtreli listeyi çek
+            fetchProducts(sortBy); 
         });
     });
 });
@@ -112,17 +111,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const filterBtn = document.getElementById("filterBtn");
     const filterDropdown = document.getElementById("filterDropdown");
 
-    // Dropdown toggle
+    
     filterBtn.addEventListener("click", () => {
         filterDropdown.style.display = filterDropdown.style.display === "flex" ? "none" : "flex";
     });
 
-    // Sıralama seçimi
+    
     document.querySelectorAll(".filter-option").forEach(option => {
     option.addEventListener("click", () => {
         const sortBy = option.getAttribute("data-sort");
         filterDropdown.style.display = "none";
-        fetchProducts(sortBy);  // <== Güncelledik
+        fetchProducts(sortBy);  
     });
 });
 
