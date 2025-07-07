@@ -30,3 +30,38 @@ body {
   text-align: start;
 }
 
+@media (max-width: 768px) {
+    h2 {
+        font-size: 32px;
+    }
+
+    .product-card h4 {
+        font-size: 14px;
+    }
+
+    .price, .color-name {
+        font-size: 12px;
+    }
+
+    .stars {
+        font-size: 14px;
+    }
+
+    .star-rating {
+        font-size: 16px;
+    }
+
+    .color-picker button {
+        width: 20px;
+        height: 20px;
+    }
+
+    .filter-button {
+        padding: 6px 16px;
+        font-size: 14px;
+    }
+
+    .filter-dropdown {
+        min-width: 160px;
+    }
+}

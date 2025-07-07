@@ -8,15 +8,16 @@
 <link rel="stylesheet" href="/css/products.css">
 
 <h2 style="margin: 30px;">Product List</h2>
-<div class="filter-container">
-    <button class="filter-button" id="filterBtn">
-        <span>Filters</span>
-    </button>
-
-    <div class="filter-dropdown" id="filterDropdown" style="display:none;">
-        <div class="filter-option" data-sort="popularityDesc">Sort by Popularity</div>
-        <div class="filter-option" data-sort="priceAsc">Price (Ascending)</div>
-        <div class="filter-option" data-sort="priceDesc">Price (Descending)</div>
+<div class="filters-wrapper">
+    <div class="filter-container">
+        <button class="filter-button" id="filterBtn">
+            <span>Filters</span>
+        </button>
+        <div class="filter-dropdown" id="filterDropdown">
+            <div class="filter-option" data-sort="popularityDesc">Popularity (Descending)</div>
+            <div class="filter-option" data-sort="priceAsc">Price (Ascending)</div>
+            <div class="filter-option" data-sort="priceDesc">Price (Descending)</div>
+        </div>
     </div>
 </div>
 

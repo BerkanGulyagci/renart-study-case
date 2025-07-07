@@ -162,6 +162,17 @@ h2 {
 }
 
 
+.filter-container {
+    display: flex;
+    justify-content: center; /* yatayda ortala */
+    margin-bottom: 30px;
+}
+.filters-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
 .filter-dropdown {
     position: absolute;
     top: 45px;
@@ -195,6 +206,7 @@ h2 {
     cursor: pointer;
     font-weight: 500;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-family: 'Avenir Book', sans-serif;
 }
 
 .filter-button:hover {

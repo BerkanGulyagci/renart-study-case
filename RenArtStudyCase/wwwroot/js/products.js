@@ -54,20 +54,23 @@ function fetchProducts(sortBy = '') {
                 `;
             });
 
-            new Swiper('.swiper-container', {
-                slidesPerView: 4,
-                spaceBetween: 24,
-                loop: false,
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                breakpoints: {
-                     1024: { slidesPerView: 4, spaceBetween: 24 },
+           new Swiper('.swiper-container', {
+    slidesPerView: 4,
+    spaceBetween: 24,
+    loop: false,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+        1200: { slidesPerView: 4, spaceBetween: 24 },
+        992:  { slidesPerView: 3, spaceBetween: 20 },
         768:  { slidesPerView: 2, spaceBetween: 16 },
-        320:  { slidesPerView: 1, spaceBetween: 12 },
-                }
-            });
+        480:  { slidesPerView: 1, spaceBetween: 12 },
+         0:    { slidesPerView: 1, spaceBetween: 12 },  
+    }
+});
+
         });
 }
 
