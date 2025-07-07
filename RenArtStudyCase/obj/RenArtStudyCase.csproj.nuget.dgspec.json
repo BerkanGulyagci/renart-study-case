@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BERKAN\\renart study case\\RenArtStudyCase\\RenArtStudyCase.csproj": {}
+    "C:\\Users\\BERKAN\\Desktop\\renart-study-case\\renart-study-case-1\\RenArtStudyCase\\RenArtStudyCase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BERKAN\\renart study case\\RenArtStudyCase\\RenArtStudyCase.csproj": {
+    "C:\\Users\\BERKAN\\Desktop\\renart-study-case\\renart-study-case-1\\RenArtStudyCase\\RenArtStudyCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BERKAN\\renart study case\\RenArtStudyCase\\RenArtStudyCase.csproj",
+        "projectUniqueName": "C:\\Users\\BERKAN\\Desktop\\renart-study-case\\renart-study-case-1\\RenArtStudyCase\\RenArtStudyCase.csproj",
         "projectName": "RenArtStudyCase",
-        "projectPath": "C:\\Users\\BERKAN\\renart study case\\RenArtStudyCase\\RenArtStudyCase.csproj",
+        "projectPath": "C:\\Users\\BERKAN\\Desktop\\renart-study-case\\renart-study-case-1\\RenArtStudyCase\\RenArtStudyCase.csproj",
         "packagesPath": "C:\\Users\\BERKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BERKAN\\renart study case\\RenArtStudyCase\\obj\\",
+        "outputPath": "C:\\Users\\BERKAN\\Desktop\\renart-study-case\\renart-study-case-1\\RenArtStudyCase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

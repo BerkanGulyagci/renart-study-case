@@ -15,12 +15,13 @@ namespace RenArtStudyCase.Controllers
             _productService = productService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetProducts()
-        {
-            var products = await _productService.GetProductsAsync();
-            return Ok(products);
-        }
+       [HttpGet]
+public async Task<IActionResult> GetProducts([FromQuery] string? sortBy)
+{
+    var products = await _productService.GetProductsAsync(sortBy);
+    return Ok(products);
+}
+
 
         [HttpGet("/products")]
         public IActionResult ProductsPage()

@@ -1,9 +1,30 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetchProducts();
+    fetchProducts(); // Sayfa ilk açıldığında çağır
+
+    const filterBtn = document.getElementById("filterBtn");
+    const filterDropdown = document.getElementById("filterDropdown");
+
+    // Dropdown toggle
+    filterBtn.addEventListener("click", () => {
+ filterDropdown.classList.toggle("show");    });
+
+    // Sıralama seçimi
+    document.querySelectorAll(".filter-option").forEach(option => {
+        option.addEventListener("click", () => {
+            const sortBy = option.getAttribute("data-sort");
+            filterDropdown.style.display = "none";
+            fetchProducts(sortBy); // Tıklayınca filtreli listeyi çek
+        });
+    });
 });
 
-function fetchProducts() {
-    fetch('/api/products')
+function fetchProducts(sortBy = '') {
+    let apiUrl = '/api/products';
+    if (sortBy) {
+        apiUrl += `?sortBy=${sortBy}`;
+    }
+
+    fetch(apiUrl)
         .then(response => response.json())
         .then(products => {
             const wrapper = document.querySelector('.swiper-wrapper');
@@ -50,6 +71,7 @@ function fetchProducts() {
         });
 }
 
+
 function changeColor(productName, imageUrl, colorName, event) {
     document.getElementById(`product-img-${productName}`).src = imageUrl;
     document.getElementById(`color-name-${productName}`).innerText = colorName;
@@ -75,3 +97,23 @@ function generateStars(score) {
         </div>
     `;
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const filterBtn = document.getElementById("filterBtn");
+    const filterDropdown = document.getElementById("filterDropdown");
+
+    // Dropdown toggle
+    filterBtn.addEventListener("click", () => {
+        filterDropdown.style.display = filterDropdown.style.display === "flex" ? "none" : "flex";
+    });
+
+    // Sıralama seçimi
+    document.querySelectorAll(".filter-option").forEach(option => {
+    option.addEventListener("click", () => {
+        const sortBy = option.getAttribute("data-sort");
+        filterDropdown.style.display = "none";
+        fetchProducts(sortBy);  // <== Güncelledik
+    });
+});
+
+});
